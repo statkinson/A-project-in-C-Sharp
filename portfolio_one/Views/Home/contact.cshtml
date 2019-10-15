@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <nav class="navbar navbar-expand navbar-primary fixed-top bg-primary">
+            <a class="navbar-brand text-light" href="/">Home |</a><a class="navbar-brand text-light" href="/projects">Projects |</a><a class="navbar-brand text-light" href="/contact">Contact</a>
+        </nav> <br>
+       <div class="mt-5">
+            <h1 class="text-center mt-5">Contact Me!</h1>
+        </div><br><br>
+        <form action="/p" method="POST">
+            <div class="row">
+                <div class="col mt-5">
+                    <h5 class="ml-5">Name: <input type="text" name="name" ></h5>
+                    <h5 class="ml-5">Email: <input type="text" name="email"></h5>
+                </div>
+                <div class="col">
+                    <h5>Message:</h5>
+                    <textarea name="message" id="message" cols="30" rows="5"></textarea><br>
+                    <button btn btn-btn btn-primary name="Submit" value="Submit">Submit</button>
+                    <a href="/">Submit</a>
+                </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
